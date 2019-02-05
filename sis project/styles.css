@@ -1,9 +1,18 @@
 .studentInformationCentre{
   font-family: Courier, monospace;
+    backface-visibility: visible;
+    background-color: antiquewhite;         /*    color for the background */
 }
 
 .navbar_class{
 font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*Menu drawe Navbar */
+#menu_navbar {
+    font-family: monospace;
+    font-size: 1.5em;
 }
 
 /* Dimensions and detatils regarding logo */
@@ -26,17 +35,25 @@ height: 150px;
 
 /* Login */
 .login_container {
+    background-color: aquamarine;
+    border: ;
+    
 
 }
 
 
 /* Notice board */
 .noticeBoard_container {
+    background-color: blue;
+    
 
 }
 
 
 /* About us  */
 .abuotUs_container {
+    padding: 20dp;
+    max-width: inherit;
 
+    background-color: dodgerblue;
 }
